@@ -19,19 +19,19 @@ flex-direction: column;
     <h1 style="margin-bottom: 50px;">Binary Search Tree</h1>
     <h3 style="margin-bottom: 100px;">Input a series of numbers and watch as it gets turned into a Binary Search Tree!</h3>
     <h4>seperate each number with a comma ","</h4>
-    <form method="post" style="
+    <form action="/enter-numbers" method="post" style="
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     margin-bottom: 300px;
     ">
-        <input type="text" style="width: 100px; margin-bottom: 10px;">
+        <input id="numbers" name="numbers" type="text" style="width: 100px; margin-bottom: 10px;">
         <button type="submit">Submit</button>
     </form>
 
-    <form method="post">
-        <button value="pasttrees" type="submit">Past Trees</button>
+    <form action="/past-trees" method="post">
+        <button type="submit">Past Trees</button>
     </form>
     
     
