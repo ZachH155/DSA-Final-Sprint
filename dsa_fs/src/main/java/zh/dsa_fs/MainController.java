@@ -18,7 +18,7 @@ public class MainController {
 
     @RequestMapping("/enter-numbers")
     public String EnterNumbers(Model model) {
-        model.addAttribute("e", "egg");
+        model.addAttribute("style", "../css/styles.css");
 
         return "enter-numbers";
     }
